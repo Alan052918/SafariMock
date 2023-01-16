@@ -16,6 +16,7 @@
 		3C4F4B9D292B47A400E27D1E /* TabToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4F4B9C292B47A400E27D1E /* TabToolbar.swift */; };
 		3C4F4B9F292B488000E27D1E /* TabToolbarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4F4B9E292B488000E27D1E /* TabToolbarButtonItem.swift */; };
 		3C4F4BA1292B4C5700E27D1E /* URLBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4F4BA0292B4C5700E27D1E /* URLBar.swift */; };
+		3C53C93C2975F86600124C91 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3C53C93B2975F86600124C91 /* README.md */; };
 		3C6ADE4C292A025900B46ABC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6ADE4B292A025900B46ABC /* AppDelegate.swift */; };
 		3C6ADE4E292A025900B46ABC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6ADE4D292A025900B46ABC /* SceneDelegate.swift */; };
 		3C6ADE50292A025900B46ABC /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6ADE4F292A025900B46ABC /* BrowserViewController.swift */; };
@@ -54,6 +55,7 @@
 		3C4F4B9C292B47A400E27D1E /* TabToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabToolbar.swift; sourceTree = "<group>"; };
 		3C4F4B9E292B488000E27D1E /* TabToolbarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabToolbarButtonItem.swift; sourceTree = "<group>"; };
 		3C4F4BA0292B4C5700E27D1E /* URLBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLBar.swift; sourceTree = "<group>"; };
+		3C53C93B2975F86600124C91 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3C6ADE48292A025900B46ABC /* SafariMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C6ADE4B292A025900B46ABC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C6ADE4D292A025900B46ABC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 		3C6ADE3F292A025900B46ABC = {
 			isa = PBXGroup;
 			children = (
+				3C53C93B2975F86600124C91 /* README.md */,
 				3C6ADE4A292A025900B46ABC /* SafariMock */,
 				3C6ADE61292A025A00B46ABC /* SafariMockTests */,
 				3C6ADE6B292A025A00B46ABC /* SafariMockUITests */,
@@ -272,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C53C93C2975F86600124C91 /* README.md in Resources */,
 				3C6ADE55292A025A00B46ABC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
