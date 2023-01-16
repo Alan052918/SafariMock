@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C03ED51292A0BAB005EF7FE /* TabManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03ED50292A0BAB005EF7FE /* TabManager.swift */; };
+		3C03ED53292A0C37005EF7FE /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03ED52292A0C37005EF7FE /* Tab.swift */; };
+		3C03ED55292A1ACF005EF7FE /* TabGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03ED54292A1ACF005EF7FE /* TabGridViewController.swift */; };
+		3C385318292CA8E400FE0D3A /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C385317292CA8E400FE0D3A /* UIConstants.swift */; };
+		3C418917292D8DBA001E4813 /* URLTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C418916292D8DBA001E4813 /* URLTextField.swift */; };
+		3C4F4B99292B3E1900E27D1E /* TabGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4F4B98292B3E1900E27D1E /* TabGridCell.swift */; };
+		3C4F4B9D292B47A400E27D1E /* TabToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4F4B9C292B47A400E27D1E /* TabToolbar.swift */; };
+		3C4F4B9F292B488000E27D1E /* TabToolbarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4F4B9E292B488000E27D1E /* TabToolbarButtonItem.swift */; };
+		3C4F4BA1292B4C5700E27D1E /* URLBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4F4BA0292B4C5700E27D1E /* URLBar.swift */; };
 		3C6ADE4C292A025900B46ABC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6ADE4B292A025900B46ABC /* AppDelegate.swift */; };
 		3C6ADE4E292A025900B46ABC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6ADE4D292A025900B46ABC /* SceneDelegate.swift */; };
-		3C6ADE50292A025900B46ABC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6ADE4F292A025900B46ABC /* ViewController.swift */; };
-		3C6ADE53292A025900B46ABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6ADE51292A025900B46ABC /* Main.storyboard */; };
+		3C6ADE50292A025900B46ABC /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6ADE4F292A025900B46ABC /* BrowserViewController.swift */; };
 		3C6ADE55292A025A00B46ABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C6ADE54292A025A00B46ABC /* Assets.xcassets */; };
-		3C6ADE58292A025A00B46ABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6ADE56292A025A00B46ABC /* LaunchScreen.storyboard */; };
 		3C6ADE63292A025A00B46ABC /* SafariMockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6ADE62292A025A00B46ABC /* SafariMockTests.swift */; };
 		3C6ADE6D292A025A00B46ABC /* SafariMockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6ADE6C292A025A00B46ABC /* SafariMockUITests.swift */; };
 		3C6ADE6F292A025A00B46ABC /* SafariMockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6ADE6E292A025A00B46ABC /* SafariMockUITestsLaunchTests.swift */; };
+		3C6ADE7D292A03A800B46ABC /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = 3C6ADE7C292A03A800B46ABC /* Logging */; };
+		3CC5E706292C0C5100247D1D /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC5E705292C0C5100247D1D /* HomepageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +45,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C03ED50292A0BAB005EF7FE /* TabManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabManager.swift; sourceTree = "<group>"; };
+		3C03ED52292A0C37005EF7FE /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		3C03ED54292A1ACF005EF7FE /* TabGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabGridViewController.swift; sourceTree = "<group>"; };
+		3C385317292CA8E400FE0D3A /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
+		3C418916292D8DBA001E4813 /* URLTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLTextField.swift; sourceTree = "<group>"; };
+		3C4F4B98292B3E1900E27D1E /* TabGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabGridCell.swift; sourceTree = "<group>"; };
+		3C4F4B9C292B47A400E27D1E /* TabToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabToolbar.swift; sourceTree = "<group>"; };
+		3C4F4B9E292B488000E27D1E /* TabToolbarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabToolbarButtonItem.swift; sourceTree = "<group>"; };
+		3C4F4BA0292B4C5700E27D1E /* URLBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLBar.swift; sourceTree = "<group>"; };
 		3C6ADE48292A025900B46ABC /* SafariMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C6ADE4B292A025900B46ABC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C6ADE4D292A025900B46ABC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3C6ADE4F292A025900B46ABC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3C6ADE52292A025900B46ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C6ADE4F292A025900B46ABC /* BrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserViewController.swift; sourceTree = "<group>"; };
 		3C6ADE54292A025A00B46ABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3C6ADE57292A025A00B46ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C6ADE59292A025A00B46ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C6ADE5E292A025A00B46ABC /* SafariMockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariMockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C6ADE62292A025A00B46ABC /* SafariMockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariMockTests.swift; sourceTree = "<group>"; };
 		3C6ADE68292A025A00B46ABC /* SafariMockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariMockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C6ADE6C292A025A00B46ABC /* SafariMockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariMockUITests.swift; sourceTree = "<group>"; };
 		3C6ADE6E292A025A00B46ABC /* SafariMockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariMockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3CC5E705292C0C5100247D1D /* HomepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C6ADE7D292A03A800B46ABC /* Logging in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +94,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C53C9332975F56B00124C91 /* TabToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				3C4F4BA0292B4C5700E27D1E /* URLBar.swift */,
+				3C418916292D8DBA001E4813 /* URLTextField.swift */,
+				3C4F4B9C292B47A400E27D1E /* TabToolbar.swift */,
+				3C4F4B9E292B488000E27D1E /* TabToolbarButtonItem.swift */,
+			);
+			path = TabToolbar;
+			sourceTree = "<group>";
+		};
 		3C6ADE3F292A025900B46ABC = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +130,15 @@
 			children = (
 				3C6ADE4B292A025900B46ABC /* AppDelegate.swift */,
 				3C6ADE4D292A025900B46ABC /* SceneDelegate.swift */,
-				3C6ADE4F292A025900B46ABC /* ViewController.swift */,
-				3C6ADE51292A025900B46ABC /* Main.storyboard */,
+				3C6ADE4F292A025900B46ABC /* BrowserViewController.swift */,
+				3C385317292CA8E400FE0D3A /* UIConstants.swift */,
+				3CC5E705292C0C5100247D1D /* HomepageViewController.swift */,
+				3C53C9332975F56B00124C91 /* TabToolbar */,
+				3C03ED52292A0C37005EF7FE /* Tab.swift */,
+				3C03ED50292A0BAB005EF7FE /* TabManager.swift */,
+				3C03ED54292A1ACF005EF7FE /* TabGridViewController.swift */,
+				3C4F4B98292B3E1900E27D1E /* TabGridCell.swift */,
 				3C6ADE54292A025A00B46ABC /* Assets.xcassets */,
-				3C6ADE56292A025A00B46ABC /* LaunchScreen.storyboard */,
 				3C6ADE59292A025A00B46ABC /* Info.plist */,
 			);
 			path = SafariMock;
@@ -137,12 +171,16 @@
 				3C6ADE44292A025900B46ABC /* Sources */,
 				3C6ADE45292A025900B46ABC /* Frameworks */,
 				3C6ADE46292A025900B46ABC /* Resources */,
+				3C6ADE7E292A068800B46ABC /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SafariMock;
+			packageProductDependencies = (
+				3C6ADE7C292A03A800B46ABC /* Logging */,
+			);
 			productName = SafariMock;
 			productReference = 3C6ADE48292A025900B46ABC /* SafariMock.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +253,9 @@
 				Base,
 			);
 			mainGroup = 3C6ADE3F292A025900B46ABC;
+			packageReferences = (
+				3C6ADE7B292A03A800B46ABC /* XCRemoteSwiftPackageReference "swift-log" */,
+			);
 			productRefGroup = 3C6ADE49292A025900B46ABC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,9 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C6ADE58292A025A00B46ABC /* LaunchScreen.storyboard in Resources */,
 				3C6ADE55292A025A00B46ABC /* Assets.xcassets in Resources */,
-				3C6ADE53292A025900B46ABC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,12 +292,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C6ADE7E292A068800B46ABC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nexport PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3C6ADE44292A025900B46ABC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C6ADE50292A025900B46ABC /* ViewController.swift in Sources */,
+				3C4F4B9D292B47A400E27D1E /* TabToolbar.swift in Sources */,
+				3C4F4B9F292B488000E27D1E /* TabToolbarButtonItem.swift in Sources */,
+				3C6ADE50292A025900B46ABC /* BrowserViewController.swift in Sources */,
+				3C418917292D8DBA001E4813 /* URLTextField.swift in Sources */,
+				3C4F4BA1292B4C5700E27D1E /* URLBar.swift in Sources */,
+				3C4F4B99292B3E1900E27D1E /* TabGridCell.swift in Sources */,
+				3C385318292CA8E400FE0D3A /* UIConstants.swift in Sources */,
+				3C03ED51292A0BAB005EF7FE /* TabManager.swift in Sources */,
+				3C03ED55292A1ACF005EF7FE /* TabGridViewController.swift in Sources */,
+				3C03ED53292A0C37005EF7FE /* Tab.swift in Sources */,
+				3CC5E706292C0C5100247D1D /* HomepageViewController.swift in Sources */,
 				3C6ADE4C292A025900B46ABC /* AppDelegate.swift in Sources */,
 				3C6ADE4E292A025900B46ABC /* SceneDelegate.swift in Sources */,
 			);
@@ -295,25 +365,6 @@
 			targetProxy = 3C6ADE69292A025A00B46ABC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		3C6ADE51292A025900B46ABC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3C6ADE52292A025900B46ABC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3C6ADE56292A025A00B46ABC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3C6ADE57292A025A00B46ABC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3C6ADE70292A025A00B46ABC /* Debug */ = {
@@ -442,9 +493,9 @@
 				INFOPLIST_FILE = SafariMock/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,9 +521,9 @@
 				INFOPLIST_FILE = SafariMock/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -602,6 +653,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3C6ADE7B292A03A800B46ABC /* XCRemoteSwiftPackageReference "swift-log" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-log";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3C6ADE7C292A03A800B46ABC /* Logging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C6ADE7B292A03A800B46ABC /* XCRemoteSwiftPackageReference "swift-log" */;
+			productName = Logging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3C6ADE40292A025900B46ABC /* Project object */;
 }
