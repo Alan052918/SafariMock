@@ -107,6 +107,15 @@
 			path = TabToolbar;
 			sourceTree = "<group>";
 		};
+		3C53C93D2975F9C700124C91 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				3C03ED52292A0C37005EF7FE /* Tab.swift */,
+				3C03ED50292A0BAB005EF7FE /* TabManager.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
 		3C6ADE3F292A025900B46ABC = {
 			isa = PBXGroup;
 			children = (
@@ -136,11 +145,10 @@
 				3C6ADE4F292A025900B46ABC /* BrowserViewController.swift */,
 				3C385317292CA8E400FE0D3A /* UIConstants.swift */,
 				3CC5E705292C0C5100247D1D /* HomepageViewController.swift */,
-				3C53C9332975F56B00124C91 /* TabToolbar */,
-				3C03ED52292A0C37005EF7FE /* Tab.swift */,
-				3C03ED50292A0BAB005EF7FE /* TabManager.swift */,
 				3C03ED54292A1ACF005EF7FE /* TabGridViewController.swift */,
 				3C4F4B98292B3E1900E27D1E /* TabGridCell.swift */,
+				3C53C9332975F56B00124C91 /* TabToolbar */,
+				3C53C93D2975F9C700124C91 /* Tab */,
 				3C6ADE54292A025A00B46ABC /* Assets.xcassets */,
 				3C6ADE59292A025A00B46ABC /* Info.plist */,
 			);
