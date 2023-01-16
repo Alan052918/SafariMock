@@ -145,7 +145,7 @@
 				3C6ADE4D292A025900B46ABC /* SceneDelegate.swift */,
 				3C6ADE4F292A025900B46ABC /* BrowserViewController.swift */,
 				3C385317292CA8E400FE0D3A /* UIConstants.swift */,
-				3CBD05612975FD810015E973 /* TabsGrid */,
+				3CBD05612975FD810015E973 /* TabGrid */,
 				3C53C9332975F56B00124C91 /* TabToolbar */,
 				3C53C93D2975F9C700124C91 /* Tab */,
 				3C6ADE54292A025A00B46ABC /* Assets.xcassets */,
@@ -171,13 +171,13 @@
 			path = SafariMockUITests;
 			sourceTree = "<group>";
 		};
-		3CBD05612975FD810015E973 /* TabsGrid */ = {
+		3CBD05612975FD810015E973 /* TabGrid */ = {
 			isa = PBXGroup;
 			children = (
 				3C03ED54292A1ACF005EF7FE /* TabGridViewController.swift */,
 				3C4F4B98292B3E1900E27D1E /* TabGridCell.swift */,
 			);
-			path = TabsGrid;
+			path = TabGrid;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
