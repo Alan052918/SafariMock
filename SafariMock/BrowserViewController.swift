@@ -131,7 +131,7 @@ class BrowserViewController: UIViewController {
                 logger.info("url bar hides")
                 tabToolbarExtendedHeightConstraint.isActive = false
                 tabToolbarDefaultHeightConstraint.isActive = true
-                tabToolbar.state = .gridTabs
+                tabToolbar.state = .tabsGrid
                 UIView.animate(withDuration: 1/3, delay: 0, options: .curveEaseIn, animations: { [self] in
                     view.layoutIfNeeded()
                 })
@@ -197,7 +197,7 @@ extension BrowserViewController: TabToolbarDelegate {
         switch tabToolbar.state {
         case .selectedTab:
             selectedTabToolbar(tabToolbar, didPress: buttonItem)
-        case .gridTabs:
+        case .tabsGrid:
             gridTabsToolbar(tabToolbar, didPress: buttonItem)
         default:
             logger.critical("Invalid tabToolbar.state: \(String(describing: tabToolbar.state))")
