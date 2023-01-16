@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		3C03ED51292A0BAB005EF7FE /* TabManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03ED50292A0BAB005EF7FE /* TabManager.swift */; };
 		3C03ED53292A0C37005EF7FE /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03ED52292A0C37005EF7FE /* Tab.swift */; };
-		3C03ED55292A1ACF005EF7FE /* TabsGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03ED54292A1ACF005EF7FE /* TabsGridViewController.swift */; };
+		3C03ED55292A1ACF005EF7FE /* TabGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03ED54292A1ACF005EF7FE /* TabGridViewController.swift */; };
 		3C385318292CA8E400FE0D3A /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C385317292CA8E400FE0D3A /* UIConstants.swift */; };
 		3C418917292D8DBA001E4813 /* URLTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C418916292D8DBA001E4813 /* URLTextField.swift */; };
-		3C4F4B99292B3E1900E27D1E /* TabsGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4F4B98292B3E1900E27D1E /* TabsGridCell.swift */; };
+		3C4F4B99292B3E1900E27D1E /* TabGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4F4B98292B3E1900E27D1E /* TabGridCell.swift */; };
 		3C4F4B9D292B47A400E27D1E /* TabToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4F4B9C292B47A400E27D1E /* TabToolbar.swift */; };
 		3C4F4B9F292B488000E27D1E /* TabToolbarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4F4B9E292B488000E27D1E /* TabToolbarButtonItem.swift */; };
 		3C4F4BA1292B4C5700E27D1E /* URLBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4F4BA0292B4C5700E27D1E /* URLBar.swift */; };
@@ -48,10 +48,10 @@
 /* Begin PBXFileReference section */
 		3C03ED50292A0BAB005EF7FE /* TabManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabManager.swift; sourceTree = "<group>"; };
 		3C03ED52292A0C37005EF7FE /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
-		3C03ED54292A1ACF005EF7FE /* TabsGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsGridViewController.swift; sourceTree = "<group>"; };
+		3C03ED54292A1ACF005EF7FE /* TabGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabGridViewController.swift; sourceTree = "<group>"; };
 		3C385317292CA8E400FE0D3A /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
 		3C418916292D8DBA001E4813 /* URLTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLTextField.swift; sourceTree = "<group>"; };
-		3C4F4B98292B3E1900E27D1E /* TabsGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsGridCell.swift; sourceTree = "<group>"; };
+		3C4F4B98292B3E1900E27D1E /* TabGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabGridCell.swift; sourceTree = "<group>"; };
 		3C4F4B9C292B47A400E27D1E /* TabToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabToolbar.swift; sourceTree = "<group>"; };
 		3C4F4B9E292B488000E27D1E /* TabToolbarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabToolbarButtonItem.swift; sourceTree = "<group>"; };
 		3C4F4BA0292B4C5700E27D1E /* URLBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLBar.swift; sourceTree = "<group>"; };
@@ -112,6 +112,7 @@
 			children = (
 				3C03ED52292A0C37005EF7FE /* Tab.swift */,
 				3C03ED50292A0BAB005EF7FE /* TabManager.swift */,
+				3CC5E705292C0C5100247D1D /* HomepageViewController.swift */,
 			);
 			path = Tab;
 			sourceTree = "<group>";
@@ -144,7 +145,6 @@
 				3C6ADE4D292A025900B46ABC /* SceneDelegate.swift */,
 				3C6ADE4F292A025900B46ABC /* BrowserViewController.swift */,
 				3C385317292CA8E400FE0D3A /* UIConstants.swift */,
-				3CC5E705292C0C5100247D1D /* HomepageViewController.swift */,
 				3CBD05612975FD810015E973 /* TabsGrid */,
 				3C53C9332975F56B00124C91 /* TabToolbar */,
 				3C53C93D2975F9C700124C91 /* Tab */,
@@ -174,8 +174,8 @@
 		3CBD05612975FD810015E973 /* TabsGrid */ = {
 			isa = PBXGroup;
 			children = (
-				3C03ED54292A1ACF005EF7FE /* TabsGridViewController.swift */,
-				3C4F4B98292B3E1900E27D1E /* TabsGridCell.swift */,
+				3C03ED54292A1ACF005EF7FE /* TabGridViewController.swift */,
+				3C4F4B98292B3E1900E27D1E /* TabGridCell.swift */,
 			);
 			path = TabsGrid;
 			sourceTree = "<group>";
@@ -343,10 +343,10 @@
 				3C6ADE50292A025900B46ABC /* BrowserViewController.swift in Sources */,
 				3C418917292D8DBA001E4813 /* URLTextField.swift in Sources */,
 				3C4F4BA1292B4C5700E27D1E /* URLBar.swift in Sources */,
-				3C4F4B99292B3E1900E27D1E /* TabsGridCell.swift in Sources */,
+				3C4F4B99292B3E1900E27D1E /* TabGridCell.swift in Sources */,
 				3C385318292CA8E400FE0D3A /* UIConstants.swift in Sources */,
 				3C03ED51292A0BAB005EF7FE /* TabManager.swift in Sources */,
-				3C03ED55292A1ACF005EF7FE /* TabsGridViewController.swift in Sources */,
+				3C03ED55292A1ACF005EF7FE /* TabGridViewController.swift in Sources */,
 				3C03ED53292A0C37005EF7FE /* Tab.swift in Sources */,
 				3CC5E706292C0C5100247D1D /* HomepageViewController.swift in Sources */,
 				3C6ADE4C292A025900B46ABC /* AppDelegate.swift in Sources */,

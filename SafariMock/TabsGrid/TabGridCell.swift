@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TabsGridCell: UICollectionViewCell {
+class TabGridCell: UICollectionViewCell {
 
     lazy var closeButton: UIButton = {
         var button = UIButton()

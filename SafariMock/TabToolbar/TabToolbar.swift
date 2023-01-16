@@ -16,14 +16,14 @@ class TabToolbar: UIToolbar {
 
     enum State: String {
         case selectedTab
-        case tabsGrid
+        case tabGrid
     }
     var state: State! {
         didSet {
             switch state {
             case .selectedTab:
                 setItems(selectedTabButtonItems, animated: true)
-            case .tabsGrid:
+            case .tabGrid:
                 setItems(gridTabsButtonItems, animated: true)
             default:
                 logger.critical("Invalid TabToolbar.State \(String(describing: state))")

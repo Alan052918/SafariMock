@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TabsGridViewController: UIViewController {
+class TabGridViewController: UIViewController {
 
     let tabManager: TabManager
     var collectionView: UICollectionView!
@@ -26,7 +26,7 @@ class TabsGridViewController: UIViewController {
 
     func setupCollectionView() {
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewFlowLayout())
-        collectionView.register(TabsGridCell.self, forCellWithReuseIdentifier: String(describing: TabsGridCell.self))
+        collectionView.register(TabGridCell.self, forCellWithReuseIdentifier: String(describing: TabGridCell.self))
         self.collectionView = collectionView
     }
 }
